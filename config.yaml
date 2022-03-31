@@ -21,7 +21,7 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: false
-    linkable: false
+    linkable: true
 
   - id: dribdat-openlegallab
     name: 'Open Legal Lab'
@@ -29,4 +29,12 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: false
-    linkable: false
+    linkable: true
+
+  - id: dribdat-schoolofdata
+    name: 'School of Data'
+    url: 'https://db.schoolofdata.ch/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
