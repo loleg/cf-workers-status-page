@@ -22,6 +22,14 @@ monitors:
     expectStatus: 200
     followRedirect: false
     linkable: true
+  
+  - id: dribdat-hack4socialgood
+    name: 'Hack4SocialGood'
+    url: 'https://bd.hack4socialgood.ch'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
 
   - id: dribdat-openlegallab
     name: 'Open Legal Lab'
@@ -34,6 +42,14 @@ monitors:
   - id: dribdat-schoolofdata
     name: 'School of Data'
     url: 'https://db.schoolofdata.ch/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
+
+  - id: dribdat-meta
+    name: 'Meta Sandbox'
+    url: 'https://meta.dribdat.cc/'
     method: GET
     expectStatus: 200
     followRedirect: false
