@@ -6,7 +6,8 @@ webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2021-07-23"
 
 [triggers]
-crons = ["*/2 * * * *"]
+crons = ["*0 */6 * * *"]
+# “At minute 0 past every 6th hour.” --crontab.guru
 
 [site]
 bucket = "out"
