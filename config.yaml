@@ -38,6 +38,14 @@ monitors:
     expectStatus: 200
     followRedirect: false
     linkable: true
+    
+  - id: dribdat-opendatach-showcase
+    name: 'Open Data Showcase'
+    url: 'https://showcase.opendata.ch/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
   
   - id: dribdat-hack4socialgood
     name: 'Hack4SocialGood'
