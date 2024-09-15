@@ -22,6 +22,22 @@ monitors:
     expectStatus: 200
     followRedirect: false
     linkable: true
+    
+  - id: dribdat-opendatach-energy
+    name: 'Energy Data Hackdays'
+    url: 'https://hack.energy.opendata.ch/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
+    
+  - id: dribdat-opendatach-glam
+    name: 'GLAM Hackdays'
+    url: 'https://hack.glam.opendata.ch/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
   
   - id: dribdat-hack4socialgood
     name: 'Hack4SocialGood'
@@ -38,18 +54,18 @@ monitors:
     expectStatus: 200
     followRedirect: false
     linkable: true
-
-  - id: dribdat-schoolofdata
-    name: 'School of Data'
-    url: 'https://db.schoolofdata.ch/'
+    
+  - id: dribdat-datahackdays-be
+    name: 'Data Hackdays BE'
+    url: 'https://hack.data-hackdays-be.ch/'
     method: GET
     expectStatus: 200
     followRedirect: false
     linkable: true
 
-  - id: dribdat-meta
-    name: 'Meta Sandbox'
-    url: 'https://meta.dribdat.cc/'
+  - id: dribdat-schoolofdata
+    name: 'School of Data'
+    url: 'https://db.schoolofdata.ch/'
     method: GET
     expectStatus: 200
     followRedirect: false
