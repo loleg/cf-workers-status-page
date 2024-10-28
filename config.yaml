@@ -32,8 +32,16 @@ monitors:
     linkable: true
     
   - id: dribdat-opendatach-glam
-    name: 'GLAM Hackdays'
+    name: 'OpenGLAM Hackdays'
     url: 'https://hack.glam.opendata.ch/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
+
+  - id: dribdat-openlegallab
+    name: 'Open Legal Lab'
+    url: 'https://challenges.openlegallab.ch/'
     method: GET
     expectStatus: 200
     followRedirect: false
@@ -54,14 +62,6 @@ monitors:
     expectStatus: 200
     followRedirect: false
     linkable: true
-
-  - id: dribdat-openlegallab
-    name: 'Open Legal Lab'
-    url: 'https://challenges.openlegallab.ch/'
-    method: GET
-    expectStatus: 200
-    followRedirect: false
-    linkable: true
     
   - id: dribdat-datahackdays-be
     name: 'Data Hackdays BE'
@@ -74,6 +74,38 @@ monitors:
   - id: dribdat-schoolofdata
     name: 'School of Data'
     url: 'https://db.schoolofdata.ch/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
+
+  - id: dribdat-echtzeit
+    name: 'Echtzeit Graffathons'
+    url: 'https://make.echtzeitkultur.org/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
+
+  - id: dribdat-smartcity-wetzikon
+    name: 'Smart City Wetzikon'
+    url: 'https://hack.smart-city-wetzikon.ch/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
+
+  - id: dribdat-meta
+    name: 'Dribdat Staging (meta)'
+    url: 'https://meta.dribdat.cc/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
+
+  - id: dribdat-demo
+    name: 'Dribdat Demo'
+    url: 'https://demo.dribdat.cc/'
     method: GET
     expectStatus: 200
     followRedirect: false
