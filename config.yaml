@@ -95,14 +95,6 @@ monitors:
     followRedirect: false
     linkable: true
 
-  - id: dribdat-meta
-    name: 'Dribdat Staging (meta)'
-    url: 'https://meta.dribdat.cc/'
-    method: GET
-    expectStatus: 200
-    followRedirect: false
-    linkable: true
-
   - id: dribdat-demo
     name: 'Dribdat Demo'
     url: 'https://demo.dribdat.cc/'
