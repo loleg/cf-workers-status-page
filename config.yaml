@@ -79,22 +79,6 @@ monitors:
     followRedirect: false
     linkable: true
 
-  - id: dribdat-echtzeit
-    name: 'Echtzeit Graffathons'
-    url: 'https://make.echtzeitkultur.org/'
-    method: GET
-    expectStatus: 200
-    followRedirect: false
-    linkable: true
-
-  - id: dribdat-smartcity-wetzikon
-    name: 'Smart City Wetzikon'
-    url: 'https://hack.smart-city-wetzikon.ch/'
-    method: GET
-    expectStatus: 200
-    followRedirect: false
-    linkable: true
-
   - id: dribdat-demo
     name: 'Dribdat Demo'
     url: 'https://demo.dribdat.cc/'
